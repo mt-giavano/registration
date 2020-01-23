@@ -1,16 +1,20 @@
 <nav class="navbar navbar-dark bg-dark">
     
-    <a class="navbar-brand text-white">Login System with JWT</a>
+    <a class="navbar-brand text-white">Home</a>
     
-    <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
+    <button class="btn btn-danger " (click)="onLogout()">Logout</button>
 </nav>
 
-<div class="card m-5" style="width: 18rem;" *ngIf="userDetails">
+<form >
+    <div class="card" style="width: 18rem;" *ngIf="userDetails">
+        <img class="card-img-top" src="/assets/img/1.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{userDetails.userName}}</h5>
+            <p class="card-text">Hello, it's me {{userDetails.fullName}}! Click button below to contact me. See ya!</p>
+        
+            <a href="#" class="btn btn-primary">{{userDetails.email}}</a>
+        </div>
+        </div>
 
-    <ul class="list-group">
-        <li class="list-group-item"><strong>Username : </strong> {{userDetails.userName}}</li>
-        <li class="list-group-item"><strong>Fullname : </strong> {{userDetails.fullName}}</li>
-        <li class="list-group-item"><strong>Email    : </strong> {{userDetails.email}}</li>
-    </ul>
+</form>
 
-</div>

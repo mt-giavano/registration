@@ -1,19 +1,31 @@
 
-<form #form='ngForm' class="mb-4" autocomplete="off" (submit)="onSubmit(form)">
 
-    <div class="form-group">
-        <label>Username</label>
-        <input class="form-control" #UserName="ngModel" name="UserName" [(ngModel)]="formModel.UserName" required>
-    </div>
+<form #form='ngForm' autocomplete="off" (submit)="onSubmit(form)" >
 
-    <div class="form-group">
-        <label>Password</label>
-        <input type="password" class="form-control" #Password="ngModel" name="Password" [(ngModel)]="formModel.Password" required>
-    </div>
+    <div class="row">
+        <div class="col-9">
 
-    <div class="form-row">
-        <div class="form-group col-md-8 offset-md-2">
-            <button type="submit" class="btn btn-lg btn-warning" [disabled]="form.invalid">Login</button>
+        </div>
+        <div class="col-3">
+            <div class="row">
+                <label>Username</label>
+                <input class="form-control" #UserName="ngModel" name="UserName" [(ngModel)]="formModel.UserName" required>   
+            </div>
+            <div class="row">
+                <label>Password</label>
+                <input type="password" class="form-control" #Password="ngModel" name="Password" [(ngModel)]="formModel.Password" required>   
+            </div>
+            <br/>
+            <div class="row">
+                <button type="submit" class="btn btn-warning" [disabled]="form.invalid">Login</button> 
+            </div>
         </div>
     </div>
+    
+    
+
 </form>
+
+
+
+
