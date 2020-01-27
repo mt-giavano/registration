@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giavano_627\\source\\repos\\Registration\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\GIavano_627\\Documents\\GitHub\\registration\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giavano_627\\source\\repos\\Registration\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\GIavano_627\\Documents\\GitHub\\registration\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giavano_627\\source\\repos\\Registration\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\GIavano_627\\Documents\\GitHub\\registration\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Giavano_627\\source\\repos\\Registration\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Giavano_627\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giavano_627\\source\\repos\\Registration\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\GIavano_627\\Documents\\GitHub\\registration\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\GIavano_627\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GIavano_627\\Documents\\GitHub\\registration\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Giavano_627\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GIavano_627\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,6 +63,12 @@
               "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.1, )"
             },

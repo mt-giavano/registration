@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebAPI.Data;
 
-namespace WebAPI.Migrations
+namespace WebAPI.Data.Migrations
 {
     [DbContext(typeof(AuthenticationContext))]
     partial class AuthenticationContextModelSnapshot : ModelSnapshot
